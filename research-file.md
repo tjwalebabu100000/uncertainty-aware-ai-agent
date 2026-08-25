@@ -31,22 +31,46 @@ These assumptions will be investigated and refined through research and human di
 
 ## 5. Technical Terms
 
-Initial technical terms to investigate:
+### Fraud Detection
+The task of identifying transactions that may be fraudulent.
 
-- Transaction fraud detection
-- Fraud risk scoring
-- Anomaly detection
-- Cost-sensitive classification
-- Bayesian decision-making
-- Probability calibration
-- Uncertainty estimation
-- Human-in-the-loop AI
-- Decision thresholds
-- False positives
-- False negatives
-- Selective classification
-- Abstention
-- Concept drift
+### Anomaly Detection
+The identification of transaction behaviour that differs substantially from expected or historical behaviour.
+
+### Class Imbalance
+A situation where legitimate transactions greatly outnumber fraudulent transactions. This means accuracy alone may be misleading when evaluating a fraud detection system.
+
+### False Positive
+A legitimate transaction that is incorrectly identified as fraudulent or suspicious.
+
+### False Negative
+A fraudulent transaction that is incorrectly treated as legitimate.
+
+### Cost-Sensitive Learning
+An approach where different types of errors are assigned different costs. This is important because approving a fraudulent transaction may be much more costly than unnecessarily reviewing or blocking a legitimate transaction.
+
+### Concept Drift
+Changes over time in the underlying behaviour or distribution of legitimate transactions and fraudulent transactions. Fraudsters may adapt their behaviour and customers may also change their transaction patterns.
+
+### Probability Calibration
+The process of making predicted probabilities meaningful as estimates of the likelihood of an outcome. This is important because our agent will use probabilities to make decisions.
+
+### Decision Threshold
+A boundary in the agent's estimated risk or probability that determines when the agent changes from one action to another.
+
+### Human-in-the-Loop
+A system design in which a human is involved in selected cases, particularly cases where the automated system is uncertain or where the consequences of an error are high.
+
+### Label Uncertainty
+A situation where the true fraud status of a transaction may not be immediately known or may remain unresolved.
+
+### Sources Consulted
+
+1. Reserve Bank of India — Master Directions on Digital Payment Security Controls.
+2. Reserve Bank of India — Master Directions on Fraud Risk Management in Commercial Banks and All India Financial Institutions.
+3. Lucas, Y. and Jurgovsky, J. — "Credit card fraud detection using machine learning: A survey."
+4. Höppner, S., Baesens, B., Verbeke, W. and Verdonck, T. — "Instance-dependent cost-sensitive learning for detecting transfer fraud."
+5. Vasquez, C. O., De Weerdt, J. and vanden Broucke, S. — "The Hidden Cost of Fraud: An Instance-Dependent Cost-Sensitive Approach for Positive and Unlabeled Learning."
 
 ## 6. Search Queries
 
