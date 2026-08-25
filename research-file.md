@@ -89,11 +89,52 @@ Initial search queries:
 
 ## 7. Reddit Communities
 
-To be researched and verified.
+### r/MachineLearning
+
+Relevant for the technical and machine-learning perspective on fraud detection. Discussions include fraud classification, anomaly detection, class imbalance, reproducibility, production deployment, retraining and model evaluation.
+
+Example discussions identified during research:
+- Fraud detection problem involving labelled and unlabelled data.
+- Reproducible machine learning for credit-card fraud detection.
+- Production machine-learning systems for fraud detection and questions around retraining.
+
+### r/fintech
+
+Relevant for the payment-industry and production perspective. Discussions include real-time transaction monitoring, payment fraud, risk scoring, false positives, transaction velocity, device signals and operational challenges.
+
+### r/FraudPrevention
+
+Relevant for the fraud-operations perspective. Discussions cover AI-based fraud detection, anomaly detection, behavioural analytics, graph analytics and practical fraud-prevention approaches.
+
+### Why These Communities Were Selected
+
+The three communities provide complementary perspectives:
+
+1. r/MachineLearning — technical and modeling perspective.
+2. r/fintech — payment and product perspective.
+3. r/FraudPrevention — operational fraud-prevention perspective.
+
+These communities will be used to identify practical concerns, missing hidden states, useful evidence, costly errors and potential improvements to the agent design.
 
 ## 8. X Accounts
 
-To be researched and verified.
+### @DataMiningApps
+
+A KU Leuven data-science and analytics research group associated with research in fraud detection, data mining, Bayesian networks, model monitoring and backtesting.
+
+Relevant because the account provides research-oriented material related to fraud analytics and machine learning.
+
+### @finnonfraud
+
+Frank McKenna's account, focused on fraud-industry topics.
+
+Relevant because the project needs practitioner perspectives in addition to academic machine-learning research.
+
+### Why These Accounts Were Selected
+
+The accounts were selected to provide research and practitioner perspectives on fraud analytics rather than generic AI commentary.
+
+Future research will record specific posts or discussions that influence the agent design.
 
 ## 9. Papers / Articles / Repositories / Datasets
 
